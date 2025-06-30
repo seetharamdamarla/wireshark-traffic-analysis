@@ -1,0 +1,48 @@
+
+Packet Analysis Summary - Task 5
+Cyber Security Internship
+
+-----------------------------------------------
+📦 Packet Capture Overview:
+- Capture File: wireshark_traffic_analysis.pcapng
+- Total Packets Captured: 9978
+- Tools Used: Wireshark on Linux (Kali)
+- Filters Applied: tcp, udp, icmp, dns, ip.dst, port 80, keywords like youtube, kali.org, nmap.org
+
+-----------------------------------------------
+📡 Protocols Identified:
+1. TCP (Transmission Control Protocol)
+   - Observed multiple SYN and RST flags indicating attempted connections.
+   - Traffic to port 80 and 443, including TLS handshakes.
+   - Some TCP packets involved reset (RST) signals from destinations.
+
+2. UDP (User Datagram Protocol)
+   - Frequent DNS responses over port 53.
+   - Communication with Google's public DNS server (8.8.8.8).
+   - Consistent packet size (~74 bytes).
+
+3. ICMP (Internet Control Message Protocol)
+   - Echo requests and replies (ping).
+   - TTL exceeded and unreachable messages observed.
+   - Source and destination include 192.168.x.x and 8.8.8.8.
+
+4. DNS (Domain Name System)
+   - Standard queries and responses captured.
+   - Domains resolved include:
+     - youtube.com
+     - mozilla.com
+     - kali.org
+     - nmap.org
+   - DNS responses show A, AAAA, and CNAME records.
+
+-----------------------------------------------
+🧠 Notable Observations:
+- Multiple TCP handshake attempts were reset by remote servers.
+- DNS queries to common services like Firefox, Google, and YouTube.
+- Presence of TLS traffic indicates secure communications on port 443.
+- Nmap and Kali.org DNS queries indicate security-related exploration.
+
+-----------------------------------------------
+✅ Outcome:
+Hands-on experience with packet-level traffic capture and protocol filtering.
+Successfully identified multiple layers of communication and common services.
