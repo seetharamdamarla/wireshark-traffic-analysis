@@ -3,9 +3,9 @@
 ---
 
 ## 🎯 Objective
-🔍 Captured and analyzed real-time network traffic using Wireshark!
-🛠️ Identified key protocols like TCP, UDP, DNS, and ICMP
-📁 Includes .pcapng file, screenshots, and findings.
+- 🔍 Captured and analyzed real-time network traffic using Wireshark!
+- 🛠️ Identified key protocols like TCP, UDP, DNS, and ICMP
+- 📁 Includes .pcapng file, screenshots, and findings.
 
 ---
 
