@@ -1,4 +1,4 @@
-# 🌐 Wireshark Traffic Analysis – Cyber Security Internship Task 5
+# 🌐 Wireshark Traffic Analysis 
 
 ---
 
